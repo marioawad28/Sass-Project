@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mario-Sass</title>
+  <link rel="icon" href="./imgaes/Mario-logo.png" type="image/icon type" style="border-radius:50%;">
+  <link rel="stylesheet" href="./style/main.css" />
+  <!-- fontawossem -->
+  <link rel="stylesheet" href="./style/all.min.css" />
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="./imgaes/Logo.png" alt="" />
+    </div>
+    <div class="toggel-menu">
+      <span class="icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <ul class="menu">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#Start">Portfolio</a></li>
+        <li><a href="#servcies">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- End Header -->
+  <!-- Start Carousel -->
+  <section class="container">
+    <div class="slider">
+      <div class="slider__slides">
+        <div class="slider__slide active">
+          <img src="./imgaes/carousel-1.jpeg" alt="A rooftop in Japan" />
+          <div class="text-1">
+            <h4>We Are Creative Agency</h4>
+            <h1>We Work with Passion</h1>
+            <button>Start Now</button>
+          </div>
+        </div>
+        <div class="slider__slide">
+          <img src="./imgaes/carousel-2.jpeg" alt="A castle in Scotland" />
+          <div class="text-2">
+            <h4>Iam creative preson</h4>
+            <h1>Experts in Design</h1>
+            <button>Start Now</button>
+          </div>
+        </div>
+      </div>
+      <div id="nav-button--prev" class="slider__nav-button"></div>
+      <div id="nav-button--next" class="slider__nav-button"></div>
+      <div class="slider__nav">
+        <div class="slider__navlink active"></div>
+        <div class="slider__navlink"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Carousel -->
+
+  <!-- Start Work Section -->
+  <section class="section-work" id="Start">
+    <div class="work-1">
+      <div class="border"></div>
+      <img src="./imgaes/work1.jpeg" alt="" />
+    </div>
+    <h1>Let's Create Something Amazing!</h1>
+    <p>
+      Fusce tincidunt, risus quis tristique tincidunt, diam turpis ornare
+      nisi, sit amet interdum lectus ligula a nisi. Sed laoreet risus congue
+      tristique tincidunt. Duis faucibus tellus lectus, eu porta orci bibendum
+      tincidunt. Proin scelerisque justo sit amet sem aliquam, a porttitor
+      orci pellentesque.
+    </p>
+    <div class="work-2">
+      <img src="./imgaes/work2.jpeg" alt="" />
+      <div class="border-2"></div>
+    </div>
+  </section>
+  <!-- End Work Section -->
+
+  <!-- Start counter  -->
+  <section class="counter">
+    <div class="nums">
+      <h1 class="num" data-goal="52">0</h1>
+      <span>happy clients</span>
+    </div>
+    <div class="nums">
+      <h1 class="num" data-goal="63">0</h1>
+      <span>cups of coffe</span>
+    </div>
+    <div class="nums">
+      <h1 class="num" data-goal="25">0</h1>
+      <span>projects</span>
+    </div>
+    <div class="nums">
+      <h1 class="num" data-goal="124">0</h1>
+      <span>working days</span>
+    </div>
+  </section>
+  <!-- End counter  -->
+  <!-- Start gird Section -->
+  <div class="grid" id="servcies">
+    <div class="row">
+      <div class="heading">
+        <h1>Build Your Amazing Website</h1>
+        <p> Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis sit amet, faucibus erat. Aliquam ac ex
+          consectetur, venenatis mi et, dignissim tortor. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Proin faucibus bibendum felis ac ullamcorper. Quisque non pulvinar enim,
+          blandit laoreet dolor. </p>
+      </div>
+      <img src="./imgaes/grid-1.jpeg" alt="" class="grid-1">
+      <img src="./imgaes/grid-2.jpeg" alt="" class="grid-2">
+      <img src="./imgaes/grid-3.jpeg" alt="" class="grid-3">
+      <img src="./imgaes/grid-4.jpeg" alt="" class="grid-4">
+
+      <div class="footer-grid">
+        <h3>we are creative agency</h3>
+        <p>
+          Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus. Aenean gravida posuere elit. Cum sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lacinia et urna sit amet
+          congue.
+          Pellentesque vel leo a eros sollicitudin varius a ac lacus. Aliquam viverra laoreet aliquet.
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+  <!-- End gird Section -->
+  <!-- Start About us section -->
+  <section class="about-us" id="about">
+    <div class="about">
+      <h1>What We Do</h1>
+      <p>Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus. Aenean gravida posuere elit. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lacinia et urna sit amet congue os qui
+        ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
+      <button>More</button>
+    </div>
+    <img src="./imgaes/about-us.jpeg" alt="">
+  </section>
+  <!-- End About us section -->
+
+  <!-- Start Countact  -->
+  <div class="contact" id="contact">
+    <h1>Build Your Amazing Website with US</h1>
+    <button>More</button>
+  </div>
+  <!-- End Contact  -->
+  <!-- Start footer -->
+  <footer> &copy; 2022 <span>Mario</span> All Right Reserved</footer>
+  <!-- End footer -->
+</body>
+<script src="./JS/index.js"></script>
+
+</html>
